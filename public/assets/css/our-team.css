@@ -1,0 +1,10 @@
+.our-team-slider{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+@media screen and (max-width:600px) {
+ .our-team-slider{
+    flex-direction: column;
+ }
+}
